@@ -1,9 +1,12 @@
-import './App.css';
+import QuizCategories from "./components/QuizCategories"
 
-function App() {
+
+
+const App = () => {
   return (
     <div>
-    hi from app 
+  
+  <QuizCategories />
     </div>
   );
 }
